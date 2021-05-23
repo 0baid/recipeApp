@@ -18,4 +18,8 @@ target 'recipeApp' do
   #     flipper_post_install(installer)
   #   end
   # end
+  pod 'react-native-netinfo', :path => '../node_modules/@react-native-community/netinfo'
+
+  pod 'react-native-safe-area-context', :path => '../node_modules/react-native-safe-area-context'
+
 end
